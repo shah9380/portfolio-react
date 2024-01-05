@@ -1,0 +1,21 @@
+.MyButton{
+    animation: focusme 3s linear infinite;
+}
+
+@keyframes focusme {
+    40%{
+        box-shadow: 0px 2px 10px #F8FAE5;
+    }
+    40%{
+        box-shadow: 0px 3px 10px #F8FAE5;
+    }
+    50%{
+        box-shadow: 0px 4px 10px #F8FAE5;
+    }
+    60%{
+        box-shadow: 0px 3px 10px #F8FAE5;
+    }
+    70%{
+        box-shadow: 0px 2px 10px #F8FAE5;
+    }
+}
